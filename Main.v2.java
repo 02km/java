@@ -1,11 +1,13 @@
-import java.util.Scanner; 
+import java.util.Scanner;
 import static java.lang.System.in;
 
-public class Main.v2 {
-    public static void main (String[] args) {
+public class Main.v2
+{
+
+  public static void main (String[] args) {
         int score = 0;
         for (int i = 1; i < 11; i++) {
-          int number1 = (int) (Math.random() * 10) + 10;
+          int number1 = (int) (Math.random() * 10) + 0;
           int number2 = (int) (Math.random() * 10) + 0;
 
 
